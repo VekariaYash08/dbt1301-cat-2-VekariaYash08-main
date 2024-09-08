@@ -24,4 +24,9 @@ public class InsertionSort {
             array[j + 1] = key;
         }
     }
+
+    @Override
+    public String toString() {
+        return "InsertionSort []";
+    }
 }
